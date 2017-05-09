@@ -1,3 +1,69 @@
 /*
  * Estilos de tu proyecto
  */
+ *{
+   box-sizing: content-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+ }
+ #nav-freelancer{
+   height: 100px;
+   background-color: #31455a;
+   display: fixed;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .h1-nav{
+   padding-left: 60px;
+   color: #fff;
+   font-size: 28px;
+ }
+ .contain-listnav{
+   width: 370px;
+ }
+ .list-nav li a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 14px;
+   font-weight: bold;
+}
+.list-nav li{
+  display: inline-flex;
+  padding-left: 30px;
+}
+.header-freelancer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #18bc9c;
+  height: 620px;
+}
+.header-freelancer img{
+  padding-left: 30%;
+}
+.h1-header{
+  font-size: 4.75em;
+  color: #ffffff;
+}
+.hr-icon-star{
+  border: 2px solid #ffffff;
+  width: 280px;
+
+  margin-top: 20px;
+}
+.span-icon{
+
+  z-index: 100;
+  position: absolute;
+  left: 22%;
+  top: -15px;
+}
+.contain-icon{
+  position: relative;
+  margin-left:30%;
+}
