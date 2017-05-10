@@ -121,11 +121,11 @@
   display: block;
   width: 90%;
   height: 90%;
-  margin: 1% 1% 1% 1%;
+
 }
 .span-search-portfolio{
-  width: 82.5%;
-  height: 43%;
+  width: 79%;
+  height: 30%;
   position: absolute;
   overflow: hidden;
   top: 0;
