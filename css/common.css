@@ -1,6 +1,40 @@
 /*
  * Estilos reutilizables
  */
+ .cls-display-flex{
+   display: flex;
+ }
+ .cls-flex-direction{
+   flex-direction: row;
+ }
+ .cls-justify-content{
+   justify-content: space-between;
+ }
+ .cls-align-items{
+   align-items: center;
+ }
+ .color-font-blue{
+   color: #2c3e50;
+ }
+ .color-font-white{
+   color: #ffffff;
+ }
+ .hr-border-blue{
+   border: 2px solid #2c3e50;
+   background: #ffffff;
+ }
+ .hr-border-white{
+     border: 2px solid #ffffff;
+ }
+ .icon-white{
+   background: #18bc9c;
+   color: #ffffff;
+ }
+ .icon-blue{
+   background: #ffffff;
+   color: #2c3e50;
+ }
+ .
 [class*="col-"]{
   float:left;
 }

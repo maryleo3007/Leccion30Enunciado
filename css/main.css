@@ -1,26 +1,36 @@
-/*
- * Estilos de tu proyecto
- */
+
  *{
    box-sizing: content-box;
    padding: 0;
    margin: 0;
    font-family: 'Montserrat', sans-serif;
  }
+ /*
+ * Styles navigator
+ */
  #nav-freelancer{
-   height: 100px;
-   background-color: #31455a;
-   display: fixed;
+   background-color: #2c3e50;
+   position: fixed;
    width: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+   transition: 0.35s ease;
+   z-index: 9999;
+ }
+ .nav-height{
+   height: 100px;
+ }
+ .nav-height-scroll{
+   height: 70px;
  }
  .h1-nav{
-   padding-left: 60px;
+   padding-left: 9%;
    color: #fff;
    font-size: 28px;
+   transition: 0.35s ease;
+ }
+ .h1-nav-scroll{
+   font-size: 18px;
+   color: #fff;
+   padding-left: 9%;
  }
  .contain-listnav{
    width: 370px;
@@ -33,37 +43,151 @@
 }
 .list-nav li{
   display: inline-flex;
-  padding-left: 30px;
+  padding-left: 5%;
 }
+/*
+* styles- header
+*/
+#nav-freelancer{
+  background-color: #2c3e50;
+  position: fixed;
+  width: 100%;
+  transition: 0.35s ease;
+  z-index: 9999;
+}
+.nav-height{
+  height: 100px;
+}
+.nav-height-scroll{
+  height: 70px;
+}
+.h1-nav{
+  padding-left: 9%;
+  color: #fff;
+  font-size: 28px;
+  transition: 0.35s ease;
+}
+.h1-nav-scroll{
+  font-size: 18px;
+  color: #fff;
+  padding-left: 9%;
+}
+.contain-listnav{
+  width: 370px;
+}
+.list-nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.list-nav li{
+ display: inline-flex;
+ padding-left: 5%;
+}
+/*
+* styles- header
+*/
 .header-freelancer{
+ justify-content: space-around;
+ background-color: #18bc9c;
+ height: 720px;
+}
+.header-freelancer img{
+ padding-left: 30%;
+}
+.div-header-contain .contain-icon{
+ padding-left: 30%;
+}
+.h1-header{
+ font-size: 4.75em;
+ color: #ffffff;
+}
+.hr-icon-star{
+ width: 280px;
+ margin-top: 20px;
+}
+.span-icon{
+ z-index: 100;
+ position: absolute;
+ top: -15px;
+}
+.span-left-icon-header{
+ left: 45%;
+}
+.contain-icon{
+ position: relative;
+ margin-bottom: 25px;
+}
+.span-description{
+ color: #ffffff;
+ font-size: 22px;
+ padding-left: 7%;
+}
+/*
+* styles- portfolio
+*/
+.section-portfolio{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  background-color: #18bc9c;
-  height: 620px;
+  background-color: #ffffff;
+  height: 720px;
 }
-.header-freelancer img{
-  padding-left: 30%;
+.h2-portfolio{
+  font-size: 3em;
 }
-.h1-header{
-  font-size: 4.75em;
-  color: #ffffff;
+.span-left-icon-portfolio{
+ left: 40%;
 }
-.hr-icon-star{
-  border: 2px solid #ffffff;
-  width: 280px;
+.contain-portfolio{
+    width: 90%;
+  	margin: auto;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+}
+.img-fortfolio{
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 90%;
+  transition: all 0.2s linear;
 
-  margin-top: 20px;
 }
-.span-icon{
-
-  z-index: 100;
-  position: absolute;
-  left: 22%;
-  top: -15px;
-}
-.contain-icon{
+.anchor-portfolio{
   position: relative;
-  margin-left:30%;
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: 1% 1% 1% 1%;
+}
+.span-search-portfolio{
+  width: 82.5%;
+  height: 43%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding-top: 35%;
+}
+.anchor-portfolio .span-search-portfolio{
+  opacity: 0;
+  background-color: rgba(66, 162, 109, 0.9);
+  transition: all 0.3s ease;
+  text-align:center;
+}
+
+.anchor-portfolio:hover .span-search-portfolio {
+  opacity: 2;
+}
+.nombre{
+  font-size: 30px;
+  padding: 45% 0% 0% 0%;
+  font-family:monospace;
+  color: white;
+  display: block;
 }

@@ -15,16 +15,12 @@
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 28px;
-  color: #ffffff;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 15px;
   padding-right: 15px;
   position: absolute;
-  background: #18BC9C;
-  
-
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
