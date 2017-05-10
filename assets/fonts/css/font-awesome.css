@@ -20,7 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
   padding-left: 15px;
   padding-right: 15px;
-  position: absolute;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {

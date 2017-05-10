@@ -1,6 +1,16 @@
 /*
  * Estilos reutilizables
  */
+.li-nav-link{
+    background-color: #18BC9C;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 23px;
+}
+ .pos-absolute{
+   position: absolute;
+ }
  .cls-display-flex{
    display: flex;
  }
@@ -12,6 +22,9 @@
  }
  .cls-align-items{
    align-items: center;
+ }
+ .cls-wrap{
+   flex-wrap: wrap;
  }
  .color-font-blue{
    color: #2c3e50;

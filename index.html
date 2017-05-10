@@ -15,9 +15,9 @@
 				<h1 id="h1-nav-fl" class="h1-nav">START BOOTSTRAP</h1>
 				<div class="contain-listnav">
 						<ul class="list-nav">
-								<li><a href="">PORTFOLIO</a></li>
-								<li><a href="">ABOUT</a></li>
-								<li><a href="">CONTACT</a></li>
+								<li><a id="portfolioid" href="">PORTFOLIO</a></li>
+								<li><a id="aboutid" href="">ABOUT</a></li>
+								<li><a id="contactid" href="">CONTACT</a></li>
 						</ul>
 				</div>
 		</nav>
@@ -27,7 +27,7 @@
 						<h1 class="h1-header">START BOOTSTRAP</h1>
 						<div class="contain-icon ">
 								<hr class="hr-icon-star hr-border-white"></hr>
-								<span class="fa fa-star span-icon icon-white span-left-icon-header"></span>
+								<span class="fa fa-star span-icon icon-white span-left-icon-header pos-absolute"></span>
 						</div>
 						<span class="span-description">Web Developer - Graphic Artist - User Experience Designer</span>
 				</div>
@@ -37,7 +37,7 @@
 						<h2 class="h2-portfolio">PORTFOLIO</h1>
 						<div class="contain-icon">
 								<hr class="hr-icon-star hr-border-blue"></hr>
-								<span class="fa fa-star span-icon icon-blue span-left-icon-portfolio"></span>
+								<span class="fa fa-star span-icon icon-blue span-left-icon-portfolio pos-absolute"></span>
 						</div>
 				</div>
 				<div class="contain-portfolio">
@@ -80,7 +80,83 @@
 				</div>
 
 		</section>
+		<section class="section-about cls-display-flex">
+				<div class="div-about-contain">
+						<h2 class="h2-about">ABOUT</h1>
+						<div class="contain-icon">
+								<hr class="hr-icon-star hr-border-white"></hr>
+								<span class="fa fa-star span-icon icon-white span-left-icon-portfolio pos-absolute"></span>
+						</div>
+				</div>
+				<div class="contain-about">
+						<div class="min-width">
+							<p class="">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+						</div>
+						<div class="min-width">
+							<p class="">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+						</div>
+						<div class="col-8">
+							<button type="button" name="button" class="btn-about-dwl">Download Theme</button>
+						</div>
+				</div>
 
+		</section>
+		<section class="section-contact cls-display-flex">
+				<div class="div-contact-contain">
+						<h2 class="h2-contact">CONTACT ME</h1>
+						<div class="contain-icon">
+								<hr class="hr-icon-star hr-border-blue"></hr>
+								<span class="fa fa-star span-icon icon-blue span-left-icon-portfolio pos-absolute"></span>
+						</div>
+				</div>
+				<div class="contain-contact">
+					<form class="form-contact" id="register-form" onsubmit="return false">
+							<div id="name-input">
+								<input type="text" id="name" placeholder="Name"><span class="icon-circle-with-cross none"></span>
+							</div>
+							<div id="email-input">
+								<input type="text" id="email" placeholder="Email"><span class="icon-circle-with-cross none"></span>
+							</div>
+							<div id="phone-input">
+								<input type="text" id="phone" placeholder="Phone number"><span class="icon-circle-with-cross none"></span>
+							</div>
+							<div id="message-input">
+								<textarea id="message" rows="6" cols="50" placeholder="Message"></textarea>
+								<span class="icon-circle-with-cross none"></span>
+							</div>
+							<button type="submit" name="button" id="submit">Send</button>
+					</form>
+				</div>
+		</section>
+		<footer>
+	    <div class="top">
+	      <div class="col-4 with-col-top-footer">
+	        <h3 class="uppercase">LOCATION</h3>
+	        <ul>
+	          <li>3481 Melrose Place </li>
+	          <li>Beverly Hills, CA 90210</li>
+	        </ul>
+	      </div>
+	      <div class="col-4 with-col-top-footer">
+	        <h3 class="uppercase">AROUND THE WEB</h3>
+					<div class="div-icon-footer">
+						<span class="fa fa-facebook-f"></span>
+						<span class="fa fa-google-plus"></span>
+						<span class="fa fa-twitter"></span>
+						<span class="fa fa-instagram"></span>
+						<span class="fa fa-soccer-ball-o"></span>
+					</div>
+	      </div>
+	      <div class="col-4 with-col-top-footer">
+	        <h3 class="uppercase">ABOUT FREE LANCER</h3>
+					<p>Freelance is a free to use, open <br> source Bootstrap theme created <br> by Start Bootstrap.</p>
+	      </div>
+			</div>
+		  <div class="bottom">
+				<p>Copyright (c) 2017 Copyright Holder All Rights Reserved.</p>
+
+	    </div>
+	  </footer>
 		<script src="js/app.js" charset="utf-8"></script>
 </body>
 </html>
